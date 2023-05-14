@@ -291,11 +291,11 @@ h2 {
 
 h1.fadein {
   position: absolute;
-  top: 50%;
+  top: auto;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  margin-bottom: 1rem; /* Add spacing between h1 and h2 */
+  margin-bottom: 1.5rem; /* Add spacing between h1 and h2 */
 }
 
 h2.fadein.delay-1 {
@@ -304,7 +304,7 @@ h2.fadein.delay-1 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  margin-top: 2.5rem; /* Add spacing between h1 and h2 */
+  margin-top: 3rem; /* Add spacing between h1 and h2 */
 }
 
 
